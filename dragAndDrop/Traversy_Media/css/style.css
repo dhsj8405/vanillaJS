@@ -3,3 +3,41 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background-color: #2ecc71;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  min-width: 900px;
+  padding: 10px;
+}
+
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  margin-right: 10px;
+}
+
+.fill {
+  width: 80%;
+  height: 80%;
+  background-image: url("https://source.unsplash.com/random");
+  background-size: cover;
+  cursor: cursor;
+}
+
+.dragged {
+  border: 2px solid gray;
+}
+
+.hovered {
+  border: 3px dashed #2ecc71;
+}
