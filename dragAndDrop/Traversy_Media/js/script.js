@@ -15,6 +15,7 @@ fill.addEventListener("dragstart", handlingDragStart);
 fill.addEventListener("dragend", handlingDragEnd);
 
 function handlingDragEnter(event) {
+  console.dir(event);
   this.classList.toggle(HOVERED);
 }
 
