@@ -44,6 +44,11 @@ body {
 	position: absolute;
 	right: 0;
 	display: none;
+	transition: transform 0.1s ease-in-out;
+}
+
+.dropdown-menu:hover {
+	transform: translateY(2px);
 }
 
 .dropdown-menu a {
